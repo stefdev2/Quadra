@@ -43,6 +43,8 @@
 @define-color shade_color rgba(0, 0, 0, 0.5);
 @define-color scrollbar_outline_color rgba(0, 0, 0, 0);
 
+* { border-radius: 0; }
+
 window, popover, tooltip {
   font-family: "Archivo", "Adwaita Sans", "Inter", "Cantarell", sans-serif;
   font-size: 13.5px;
